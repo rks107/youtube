@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Videoes  from "./Videoes";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="icon">
+          <img src="https://scontent.flko3-1.fna.fbcdn.net/v/t1.0-9/156979805_3494905424068776_6904845563601612290_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=7jxF-YgslaoAX94DVqu&_nc_ht=scontent.flko3-1.fna&oh=68c2460ec5c14c3728fda9d17b3ec93c&oe=606B2340" className="App-logo" alt="logo" />
+        </div>
+        <div className="ve">
+          <p>
+            Vlogger Engineer
+          </p>
+        </div>
       </header>
+
+    <Videoes />
     </div>
   );
 }

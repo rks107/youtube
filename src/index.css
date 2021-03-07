@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App-header{
+  height: 65px;
+  display: flex;
+  box-shadow: 0 0 5px 1px #161A3F;
+}
+.ve{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 75vw;
+}
+.ve p{
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.App-logo{
+  height: 65px;
+  text-align: end;
+}
+
+
+
+/* Videoes */
+
+.videos{
+  width: 95vw;
+  margin: 15px auto;
+}
+.active{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.video{
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: lightblue;
+  /* width: 100%; */
+  border-radius: 5px;
+}
+.video a{
+  text-decoration: none;
+  cursor: pointer;
+}
